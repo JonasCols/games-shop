@@ -24,9 +24,14 @@ nav ul li{
     margin-left: 20px;
 }
 
-nav ul li a{
+nav ul li a,
+.icones-sociais a{
     text-decoration: none;
     color: #ecf0f1;
+}
+
+section{
+    padding: 20px 0;
 }
 
 input,
@@ -35,4 +40,10 @@ button{
     display: block;
     margin-bottom: 8px;
     width: 320px;
+}
+
+.icones-consoles img,
+.icones-sociais a img{
+    height: 30px;
+    margin-right: 10px;
 }
